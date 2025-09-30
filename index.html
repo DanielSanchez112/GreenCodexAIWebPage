@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCodexAI - Tu Coach Agrícola Personal</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            background-color: #f4f8f5;
+        }
+        .navbar-brand img {
+            max-height: 40px; /* Tamaño del logo en el navbar */
+            width: 40px; /* Asegura que sea cuadrado para redondear bien */
+            object-fit: cover; /* Recorta la imagen si es necesario para mantenerla en el círculo */
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1492944537255-6d0b57e6ac14?q=80&w=2070') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero-logo {
+            width: 120px; /* Tamaño del logo en la sección Hero */
+            height: 120px; /* Asegura que sea cuadrado para redondear bien */
+            object-fit: cover;
+            margin-top: 20px; /* Espacio entre el texto y el logo */
+            margin-bottom: 30px; /* Espacio entre el logo y los botones */
+            border: 3px solid rgba(255, 255, 255, 0.7); /* Un borde sutil para resaltarlo */
+        }
+        .features-section {
+            padding: 60px 0;
+        }
+        .feature-icon {
+            font-size: 3rem;
+            color: #198754; /* Verde de Bootstrap */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./resources/GreenCodexAILogoRound.png" alt="Logo GreenCodexAI" class="rounded-circle"> 
+                GreenCodexAI
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacy.html">Políticas de Privacidad</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-success" href="https://www.whatsapp.com/download" target="_blank" role="button">
+                           <i class="bi bi-whatsapp"></i> Usar Agente
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">El conocimiento ancestral de la tierra, potenciado por IA.</h1>
+            <p class="lead my-4">GreenCodexAI es tu coach agrícola personal. <br>Combina la sabiduría de la naturaleza con inteligencia artificial para guiarte desde la siembra hasta la cosecha.</p>
+            
+            <img src="./resources/GreenCodexAILogoRound.png" alt="Logo GreenCodexAI" class="img-fluid rounded-circle hero-logo">
+            
+            <br>
+            <a class="btn btn-success btn-lg" href="https://www.whatsapp.com/download" target="_blank" role="button">
+                Hablar con el Agente
+            </a>
+        </div>
+    </header>
+
+    <section class="features-section text-center">
+        <div class="container">
+            <h2 class="mb-5">El poder de GreenCodexAI en tus manos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-camera feature-icon mb-3"></i>
+                    <h4>Diagnóstico por Foto</h4>
+                    <p class="text-muted">Envía una foto de una hoja o fruto y obtén un diagnóstico de salud o estado de madurez al instante.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-chat-left-text feature-icon mb-3"></i>
+                    <h4>Consultas Inteligentes</h4>
+                    <p class="text-muted">Pregúntale cualquier cosa sobre tus plantas, desde tiempos de siembra hasta fertilizantes caseros.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-bell feature-icon mb-3"></i>
+                    <h4>Guía y Recordatorios</h4>
+                    <p class="text-muted">Registra tus plantas y GreenCodexAI te recordará cuándo regar, fertilizar y cosechar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center text-muted bg-light">
+        <div class="container">
+            <p>&copy; 2025 GreenCodexAI. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
